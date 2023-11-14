@@ -4,7 +4,7 @@ export default function handler(request, response) {
   console.log('/api/[id]');
 
   response.status(200).json({
-    // blogId,
+    params: request.params,
     body: request.body,
     query: request.query,
     cookies: request.cookies,
