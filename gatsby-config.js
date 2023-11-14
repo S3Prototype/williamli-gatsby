@@ -7,4 +7,5 @@ module.exports = {
     siteUrl: `https://gatsby-template.vercel.app/`,
   },
   plugins: [],
+  trailingSlash: 'never',
 };
