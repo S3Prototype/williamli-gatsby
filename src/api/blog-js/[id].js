@@ -4,8 +4,8 @@ export default function handler(request, response) {
 
   response.status(200).json({
     body: request.body,
-    params: `Params in JS: ${JSON.stringify(request.params)}`,
-    query: `Query in JS: ${JSON.stringify(request.query)}`,
+    params: request.params,
+    query: request.query,
     cookies: request.cookies,
   });
 }
