@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/api/blog-js/:id", "destination": "/api/blog-js/[id]" },
     { "source": "/api/blog-ts/:id", "destination": "/api/blog-ts/[id]" },
     { "source": "/api/products/:path*", "destination": "/api/products/[...]" }
+    { "source": "/api/blog-js/:id", "destination": "/api/blog-js/[id]" },
   ]
 }
